@@ -1,0 +1,5 @@
+test_images/
+__pycache__/
+
+*.rar
+*.csv
