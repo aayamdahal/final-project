@@ -3,3 +3,5 @@ __pycache__/
 
 *.rar
 *.csv
+.env
+tests/fixtures/sample.png
