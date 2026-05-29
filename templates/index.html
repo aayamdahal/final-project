@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Handwritten Expression Evaluator</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main>
+    <h1>Handwritten Expression Evaluator</h1>
+    <p>Draw a math expression using digits and <code>+ - *</code>, then Evaluate.</p>
+    <div class="toolbar">
+      <button id="pen" class="active">Pen</button>
+      <button id="eraser">Eraser</button>
+      <button id="clear">Clear</button>
+      <button id="evaluate">Evaluate</button>
+    </div>
+    <canvas id="board" width="800" height="256"></canvas>
+    <div id="result" class="result"></div>
+  </main>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
